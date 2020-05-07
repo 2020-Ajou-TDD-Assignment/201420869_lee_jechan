@@ -30,7 +30,7 @@ public class BowlingGameTest {
 	}
 
 	@Test
-	@Ignore("until we get design right")
+	@Ignore("until we walk frame by frame")
 	public void testOneSpare() {
 		g.roll(5);
 		g.roll(5); // spare
